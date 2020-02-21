@@ -28,5 +28,8 @@ h6{
     background-image: url("..//img/s_image.jpg");
     color: antiquewhite;
     text-align: center;
-    padding: 10%;
+    padding: 9%;
+}
+h4{
+    text-align: center;
 }
