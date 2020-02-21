@@ -1,0 +1,32 @@
+.dad{
+    background-image: url("../img/h_img.jpg");
+    height:780px;
+    padding: 15%;
+}
+.dad img{
+    margin-left:50%;
+}
+.mouse{
+    margin-top: 25%;
+}
+h3{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+h6{
+    color: antiquewhite;
+    font-size: xx-small;
+    text-align: center ;
+}
+.next{
+    text-align: center;
+}
+.mum{
+    background-image: url("..//img/s_image.jpg");
+    color: antiquewhite;
+    text-align: center;
+    padding: 10%;
+}
