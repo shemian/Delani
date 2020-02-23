@@ -34,12 +34,17 @@
                 <h4>WHAT WE DO</h4>
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/design_icon.png">
+                        <div class="icon" onclick="designClick()">
+                            <img src="img/design_icon.png">
+                        </div>
                         <p>Design</p>
-                        <p>this is one of our designs in delani studios</p>
+                        <p id="design_text" style="display: none;"  onclick="designTextClick()">Our design practice offers a full range of services including branh strategy,interactive and visual design and user experience testing
+                             <br> Throughout your project,our designers create and implement visual design and workflows solicit user feedback and work with you to make sure what gets built <br>is what is needed</p>
                     </div>
                         <div class="col-md-4">
-                            <img src="img/dev_icon.png">
+                            <div>
+                                <img src="img/dev_icon.png">
+                            </div>
                             <p>Development</p>
                         </div>
                             <div class="col-md-4">
@@ -52,28 +57,28 @@
                 <h5>PORTFOLIO</h5>
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="img/work4.jpg" width="250" style="margin-right: 5px;" style="margin-bottom: 3px;"> 
+                        <img src="img/work4.jpg" width="250" style="margin-right: 5px;margin-bottom: 5px;"> 
                     </div>
                     <div class="col-md-3">
-                        <img src="img/work3.jpg" width="250" style="margin-right: 5px;" style="margin-bottom: 3px;" >
+                        <img src="img/work3.jpg" width="250" style="margin-right: 5px;margin-bottom: 3px;" >
                     </div>
                     <div class="col-md-3">
-                        <img src="img/work2.jpg" width="250" style="margin-right: 5px;"  style="margin-bottom: 3px;">
+                        <img src="img/work2.jpg" width="250" style="margin-right: 5px;margin-bottom: 3px;">
                     </div>
                     <div class="col-md-3">
-                        <img src="img/work1.jpg" width="250" style="margin-right: 5px;">
+                        <img src="img/work1.jpg" width="250" style="margin-right: 5px;margin-bottom: 3px;" >
                     </div>
                     <div class="col-md-3">
-                        <img src="img/work5.jpg" width="250" style="margin-right: 5px;">
+                        <img src="img/work5.jpg" width="250" style="margin-right: 5px;margin-bottom: 3px;" >
                     </div>
                     <div class="col-md-3">
-                        <img src="img/work6.jpg" width="250" style="margin-right: 5px;">
+                        <img src="img/work6.jpg" width="250" style="margin-right: 5px;margin-bottom: 3px;" >
                     </div>
                     <div class="col-md-3">
-                        <img src="img/work7.jpg" width="250" style="margin-right: 5px;">
+                        <img src="img/work7.jpg" width="250" style="margin-right: 5px;margin-bottom: 3px;">
                     </div>
                     <div class="col-md-3">
-                        <img src="img/work8.jpg" width="250" style="margin-right: 5px;">
+                        <img src="img/work8.jpg" width="250" style="margin-right: 5px;margin-bottom: 3px;">
                     </div>
                 </div>
             </div>
@@ -86,5 +91,17 @@
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
+  <script>
+      function designClick() {
+          $('.icon').hide();
+          $('#design_text').show();
+          
+      }
+      function designTextClick() {
+          $('.icon').show();
+          $('#design_text').hide();
+          
+      }
+  </script>
 </body>
 </html>
