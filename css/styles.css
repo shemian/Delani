@@ -62,4 +62,16 @@ h5{
 .board:hover .image{
     opacity: 1;
 }
-
+#name{
+    width: 400px;
+    padding-right: 20px;
+    background: transparent;
+}
+#email{
+    width: 400px;
+    background: transparent;
+}
+#text{
+    width: 820px;
+    background: transparent;
+}
