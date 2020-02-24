@@ -16,6 +16,7 @@ the live link to my repository
 Existing Git Repo? cd existing_git_repo git remote add origin git@github.com:USER/PROJECT_NAME.git git push origin master
 
 You may also want to track the master branch for easy pull/push git config branch.master.merge refs/heads/master git config branch.master.remote origin 
+you also need to link your project
 
 ## Technologies used
 In this project we've used several technologies 1.css 2.html 3.bootstrap 4.js console jquery
