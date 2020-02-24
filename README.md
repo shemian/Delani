@@ -12,13 +12,15 @@ mkdir PROJECT_NAME cd PROJECT_NAME git init touch README.md git add README git c
 
 the live link to my repository
 
- https://github.com/shemian/Akan-names.git
+ https://github.com/shemian/Akan-names.git 
 Existing Git Repo? cd existing_git_repo git remote add origin git@github.com:USER/PROJECT_NAME.git git push origin master
 
-You may also want to track the master branch for easy pull/push git config branch.master.merge refs/heads/master git config branch.master.remote origin
+You may also want to track the master branch for easy pull/push git config branch.master.merge refs/heads/master git config branch.master.remote origin 
+you also need to link your project
+link with the correct $
 
 ## Technologies used
-In this project we've used several technologies 1.css 2.html 3.bootstrap 4.js console
+In this project we've used several technologies 1.css 2.html 3.bootstrap 4.js console jquery
 
 
 
@@ -37,4 +39,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Ian shem Nyongesa
 
 ## contact info:
-Email:shemian092@gmail.com instagram page:shenian facebook:shemian78 git hub: shemian
+Email:shemian092@gmail.com instagram page:shenian facebook:shemian78 git hub: shem
