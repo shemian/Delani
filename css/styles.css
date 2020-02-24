@@ -42,6 +42,7 @@ h5{
     background-image: url("../img/c_image.jpg");
     padding: 15%;
     margin-top: 5%;
+   background-repeat: no-repeat ;
 }
 .this{
     text-align: center;
@@ -74,4 +75,8 @@ h5{
 #text{
     width: 820px;
     background: transparent;
+}
+body{
+    font-family: 'Odibee Sans', ;
+    font-family: 'Odibee Sans', ;
 }
