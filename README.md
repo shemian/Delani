@@ -39,4 +39,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Ian shem Nyongesa
 
 ## contact info:
-Email:shemian092@gmail.com instagram page:shenian facebook:shemian78 git hub: shemian
+Email:shemian092@gmail.com instagram page:shenian facebook:shemian78 git hub: shem
