@@ -17,6 +17,7 @@ Existing Git Repo? cd existing_git_repo git remote add origin git@github.com:USE
 
 You may also want to track the master branch for easy pull/push git config branch.master.merge refs/heads/master git config branch.master.remote origin 
 you also need to link your project
+link with the correct $
 
 ## Technologies used
 In this project we've used several technologies 1.css 2.html 3.bootstrap 4.js console jquery
