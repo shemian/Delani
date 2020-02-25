@@ -50,7 +50,7 @@ h5{
 }
 .this{
     text-align: center;
-    display: inline-block;
+    display: inline-block; 
 }
 .image{
     transition: .5s ease;
@@ -83,4 +83,7 @@ h5{
 body{
     font-family: 'Odibee Sans', ;
     font-family: 'Odibee Sans', ;
+}
+::placeholder  {
+    color: white;
 }
