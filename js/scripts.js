@@ -5,3 +5,15 @@ function clickThis(name) {
     };
     return name;
 };
+function whatWeDoClick(div_class,item_clicked) {
+    if (item_clicked=="icon") {
+      $('.'+div_class).hide();
+      $('#'+div_class+'_text').show();
+        
+    } else {
+      $('.'+div_class).show();
+      $('#'+div_class+'_text').hide();
+        
+    }
+    
+}
